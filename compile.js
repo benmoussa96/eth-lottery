@@ -23,4 +23,4 @@ const input = {
 };
 const output = JSON.parse(solc.compile(JSON.stringify(input)));
 
-module.exports = output.contracts["Lottery.sol"].Inbox;
+module.exports = output.contracts["Lottery.sol"].Lottery;
